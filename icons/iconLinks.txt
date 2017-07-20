@@ -1,0 +1,2 @@
+java icon:  http://codehustler.org/wp-content/uploads/2012/12/java_logo.png
+MYSQL icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
