@@ -25,21 +25,21 @@
 
 
 
-<body style="background-color: #F8F8F8;">
+<body style="background-color: #add8e6">
 
 <div id="left-margin"></div>
 <div id="right-margin"></div>
 
 <div class="w3-top">
-	<div class="w3-bar w3-light-blue w3-xlarge">
-	  <a href="#about" class="w3-bar-item w3-button w3-hover-orange w3-hover-color-white" style="width:25%; color: white">About</a>
-	  <a href="#xp" class="w3-bar-item w3-button w3-hover-orange" style="width:25%; color: white">Experience</a>
-	  <a href="#proj" class="w3-bar-item w3-button w3-hover-orange" style="width:25%; color: white">Projects</a>
-	  <a href="#contact" class="w3-bar-item w3-button w3-hover-orange" style="width:25%; color: white">Contact</a>
+	<div class="w3-bar w3-teal w3-xlarge">
+	  <a href="#about" class="w3-bar-item w3-button w3-hover-yellow w3-hover-color-white" style="width:25%; color: white">About</a>
+	  <a href="#xp" class="w3-bar-item w3-button w3-hover-yellow" style="width:25%; color: white">Experience</a>
+	  <a href="#proj" class="w3-bar-item w3-button w3-hover-yellow" style="width:25%; color: white">Projects</a>
+	  <a href="#contact" class="w3-bar-item w3-button w3-hover-yellow" style="width:25%; color: white">Contact</a>
 	</div>
 </div>
-
-<div style="margin:20px 200px 0px 200px;" class="w3-center"  id="about">
+<div id="mainContent">
+<div style="margin:20px 80px 0px 80px;" class="w3-center"  id="about">
 <br><br>
 	<div id="introduction" style="background-color: white" class="w3-card-4">
 		<header class="w3-container w3-orange">
@@ -55,11 +55,11 @@
 			<p>I just simply enjoy programming!</p>
 		</div>
 	</div>
-	<hr>
+	
 </div>
 	
 
-  <div style="margin:100px 200px 130px 200px;" class="w3-center" id="xp">
+  <div style="margin:100px 80px 0px 80px;" class="w3-center" id="xp">
   <br><br>
   <div class="w3-card-4" style="background-color: white">
 		<header class="w3-container w3-orange">
@@ -84,7 +84,7 @@
   </div>
  </div>
 
-	<div style="margin:100px 200px 130px 200px;" id="proj" class="w3-container tab">
+	<div style="margin:100px 80px 50px 80px;" id="proj" class="w3-container tab">
   
 	  <br><br>
 	  <div class="w3-card-4" style="background-color: white">
@@ -128,7 +128,7 @@
 	</div>
 <!–– Hiragana div content. Ends here  ––>
 
-
+<hr>
 
 
 <!–– MisicSpace div content.  ––>
@@ -160,7 +160,7 @@
 	</div>
 	
 		<!–– MusicSpace div content. Ends here. ––>
-		<br><br><br>
+		<br><br><br><hr>
 	
 		<div id="work">
 			<p style="color: green;"><b>Side projects</b></p>
@@ -183,20 +183,20 @@
   <br><br><br>
   
   
-  <div id="contact" class="w3-container tab" style="background-color: white; border: solid black 1px; border-radius: 3px;">
-		<h2 style="color: orange;"><b>Get In Touch</b></h2>
+  <div id="contact" class="w3-container tab" style="background-color: #f0f5d8; border: solid black 1px; border-radius: 3px;">
+		<h2 style="color: orange;"><u><b>Get In Touch</b></u></h2>
 		<p>If you are intrested in co-operating with me on any project please come find me or contact me on Facebook</p>
 		<p>
-			<a target="_blank" title="find us on Facebook" href="https://www.facebook.com/profile.php?id=100010818256635">
+			<a target="_blank" title="find me on Facebook" href="https://www.facebook.com/profile.php?id=100010818256635">
 			<img id="faceb" alt="follow me on facebook" src="//login.create.net/images/icons/user/facebook_30x30.png" border=0></a>
 			
-			<a target="_blank" title="find us on github" href="https://github.com/DallanByrne">
+			<a target="_blank" title="find me on github" href="https://github.com/speedySloth?tab=repositories">
 			<i class="fa fa-github-square" style="font-size:36px;color:purple"></i></a>
 		</p>
 		<p style="font-size:20px"><span>&#9993;</span>	dallan.byrne.2016@mumail.ie</p>
 		<p style="font-size:20px"><i class="fa fa-phone" style="font-size:20px"></i>	087 992 6086</p>
   </div>
-
+</div>
 </body>
 
 <style>
@@ -252,23 +252,7 @@ img {
 #pictures{
 	margin-right:10%;
 }
-#left-margin, #right-margin {
-                width: 10%;
-                height: 300%;
-                position: absolute;
-                z-index: -1;
-            }
 
-            #left-margin {
-                left: 0;
-                background-color: 	add8e6;
-            }
-
-            #right-margin {
-                right: 0;
-                background-color: 	add8e6;
-            }
-			
 .justified
 	{
     text-align: justify;
@@ -279,4 +263,17 @@ img {
 	padding-bottom: 3px;
 }
 
+#mainContent{
+	margin: auto;
+    width: 80%;
+	border-left: 0px;
+	border-style: groove;
+	background-color: #F8F8F8;
+}
+
+hr{
+	border: 0;
+	border-top: 1px solid #8c8c8c;
+  border-bottom: 1px solid #fff;
+}
 </style>
